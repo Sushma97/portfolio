@@ -7,40 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <!-- Home Section -->
     <section id="home" class="section">
-        <h1>Welcome to Sushma Mahadevaswamy's Portfolio</h1>
-        <p>Fortifying and Transforming Digital Landscapes with Innovative Cybersecurity Solutions</p>
+        <div class="overlay">
+            <h1>Welcome to Sushma Mahadevaswamy's Portfolio</h1>
+            <p>Fortifying and Transforming Digital Landscapes with Innovative Cybersecurity Solutions</p>
+        </div>
     </section>
 
     <!-- About Me Section -->
     <section id="about" class="section">
         <h2>About Me</h2>
         <p>
-            I'm an innovative and strategy-driven cybersecurity engineer based in Austin, Texas. My focus is on fortifying and transforming complex digital landscapes. I specialize in a multi-disciplinary approach to design and implementation, ensuring that security measures not only protect but also enhance business operations, user experience, and overall system integrity.
+            I'm an innovative and strategy-driven cybersecurity engineer based in Austin, Texas. My focus is on fortifying and transforming complex digital landscapes...
         </p>
-        <p>
-            With a deep understanding of cybersecurity principles and best practices, I deliver robust, high-quality, and secure solutions on time. Outside of work, I am passionate about the mountains and the outdoors, and I enjoy biking, climbing, skiing, hiking, and running.
-        </p>
+        <div class="about-image">
+            <img src="cybersecurity_image.jpg" alt="Cybersecurity">
+        </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="section">
         <h2>Selected Projects</h2>
-        <ul>
-            <li>
+        <div class="project-carousel">
+            <div class="project-item">
                 <h3>Enterprise Security Transformation</h3>
-                <p>Implemented a comprehensive security overhaul for a major financial institution, enhancing both security and operational efficiency.</p>
-            </li>
-            <li>
+                <p>Implemented a comprehensive security overhaul for a major financial institution...</p>
+            </div>
+            <div class="project-item">
                 <h3>Cloud Security Architecture</h3>
-                <p>Designed and implemented a secure cloud infrastructure for a global e-commerce company, significantly reducing security incidents.</p>
-            </li>
-            <li>
+                <p>Designed and implemented a secure cloud infrastructure...</p>
+            </div>
+            <div class="project-item">
                 <h3>Incident Response Strategy</h3>
-                <p>Developed and executed an incident response plan for a tech startup, minimizing downtime and safeguarding critical business data.</p>
-            </li>
-        </ul>
+                <p>Developed and executed an incident response plan for a tech startup...</p>
+            </div>
+        </div>
     </section>
 
     <!-- Blog Section -->
